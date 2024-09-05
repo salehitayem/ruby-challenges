@@ -31,6 +31,6 @@ function missingNumber(arr) {
         }
     }
 };
-let x = [2, 1, 5, 4, 6, 9, 7, 8, 10];
+let x = [2, 1, 5, 4, 6, 9, 7, 8, 10]; // input array
 
 missingNumber(x);
