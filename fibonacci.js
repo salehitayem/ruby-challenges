@@ -1,5 +1,5 @@
 
-// for faster aprouch lets solve it recursivly using memoization. buy saving the calculated values in a array 
+// for faster aprouch lets solve it recursivly using memoization. buy saving the calculated values in a array so we dont have to calcualted it again, 
 let n = 100;
 // validation input
 function validationNumber(n) {
@@ -32,7 +32,7 @@ function fib(n) {
         return m[n]; // return the new value 
         
     }
-    console.log(fib(n, m = [])) // call the function and print the result
+    console.log(fib(n, m = [])) // print the finial result 
 };
 
 fib(n) 
